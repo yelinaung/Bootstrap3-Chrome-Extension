@@ -1,0 +1,21 @@
+
+{
+  "name": "My Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Opens up a local webpage",
+  "background": "index.html",
+  "browser_action": {
+    "default_title": "HELLO!",
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["new_window.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
