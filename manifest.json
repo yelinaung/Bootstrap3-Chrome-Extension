@@ -1,12 +1,12 @@
 
 {
-  "name": "My Extension",
+  "name": "Bootstrap 3",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Opens up a local webpage",
+  "description": "Opens up offline Bootstrap 3 documentation",
   "background": "docs/index.html",
   "browser_action": {
-    "default_title": "HELLO!",
+    "default_title": "Bootstrap 3",
     "default_icon": "icon.png"
   },
 
@@ -17,5 +17,8 @@
 
   "permissions": [
     "tabs"
-  ]
+  ],
+
+  "icons": { "16": "icon.png" }
+
 }
