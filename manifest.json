@@ -1,12 +1,12 @@
 
 {
-  "name": "Bootstrap 3",
-  "version": "1.0",
+  "name": "Bootstrap 3 Offline Docs",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Opens up offline Bootstrap 3 documentation",
   "background": "docs/index.html",
   "browser_action": {
-    "default_title": "Bootstrap 3",
+    "default_title": "Bootstrap 3 Offline Docs",
     "default_icon": "icon.png"
   },
 
